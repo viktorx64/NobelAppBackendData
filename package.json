@@ -4,7 +4,7 @@
   "description": "Get the information on our nobel nominies",
   "main": "getInfo.js",
   "scripts": {
-    "test": "testit"
+    "test": "mocha tester.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/viktorx64/NobelAppBackendData#readme",
   "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
     "express": "^4.17.1"
   }
 }
