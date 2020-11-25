@@ -1,0 +1,22 @@
+{
+  "name": "nobeldata",
+  "version": "1.0.0",
+  "description": "Get the information on our nobel nominies",
+  "main": "getInfo.js",
+  "scripts": {
+    "test": "testit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktorx64/NobelAppBackendData.git"
+  },
+  "author": "Viktorx64, Tobbe163, MafaldaNicolau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viktorx64/NobelAppBackendData/issues"
+  },
+  "homepage": "https://github.com/viktorx64/NobelAppBackendData#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
