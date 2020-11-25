@@ -21,10 +21,20 @@ const CheckingData = {
 chai.use(chaiHttp);
 // testing starts here
 
+describe("Server", function() {
+	it("running", function(done) {
+		chai.request(baseUrl)
+		.get("/tester")
+		.end(function(err, res) {
+			res.should.have.status(200);
+			done();
+		})
+	});
+});
 describe("Load Candidates", function() {
 	it("Get all Candidates", function(done) {
 		chai.request(baseUrl)
-		.get("/")
+		.get("/allNobel")
 		.end(function(err, res) {
 			res.should.have.status(200);
 			done();
