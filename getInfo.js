@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
 	next();
 })
 
-router.listen(3000, function(){
+router.listen(process.env.PORT || 3000, function(){
 	console.log("Server Listening on port 3000");
 });
 module.exports = router;
