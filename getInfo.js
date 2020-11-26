@@ -1,5 +1,6 @@
 /*
 	Get Info from nobel nominies
+	author: Viktorx64
 */
 
 console.log("Program starting");
