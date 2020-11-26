@@ -2,11 +2,20 @@
 	"firstname" : "John",
 	"lastname" : "Doe",
 	"id" : 0,
-	"accomplished" : "Test candidate"
+	"accomplished" : [
+		"Test candidate",
+		"first With multiple accomplish",
+		"can read",
+		"Know how to login to a computer"
+	]
 },
 {
 	"firstname" : "Johnas",
 	"lastname" : "Doe",
 	"id" : 1,
-	"accomplished" : "Test candidate 2"
+	"accomplished" : [
+		"Test candidate",
+		"first With multiple accomplish",
+		"can read"
+	]
 }]
