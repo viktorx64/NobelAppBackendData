@@ -8,7 +8,9 @@
 		"Infinite amount",
 		"maybe nt infinite but to a human it will seem like it",
 		"Ask the backend api group to insert more data here what you need and how."
-	]
+	],
+	"shortinfo": "Hon är en människa",
+	"liv": "Jag levde sen dog jag"
 },
 {
 	"firstname" : "John",
@@ -18,7 +20,9 @@
 		".",
 		"..",
 		"..."
-	]
+	],
+	"shortinfo": "amen backarå!",
+	"liv": "Han lever livet i reverse"
 },
 {
 	"firstname" : "Margaret",
@@ -28,7 +32,9 @@
 		".",
 		"..",
 		"..."
-	]
+	],
+	"shortinfo": "Gillar att köra formel1",
+	"liv": "lewis hemliga identitet"
 },
 {
 	"firstname" : "Steve",
