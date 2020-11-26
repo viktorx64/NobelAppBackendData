@@ -7,6 +7,8 @@ xhr request
 
 Recieve | Request | Route | Response
 --- | --- | --- | ---
-All | GET | /allNobel | JSONArray
+All | GET | /allNobel | JSONArray nominies
+Votes | GET | /votes | JSONArray vote
+Vote | PUT | /vote | JSONArray vote update
 
 send a message if you want more functions
