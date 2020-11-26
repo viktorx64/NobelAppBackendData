@@ -2,13 +2,11 @@
 	"firstname" : "John",
 	"lastname" : "Doe",
 	"id" : 0,
-	"votes": 42,
 	"accomplished" : "Test candidate"
 },
 {
 	"firstname" : "Johnas",
 	"lastname" : "Doe",
 	"id" : 1,
-	"votes": 45,
 	"accomplished" : "Test candidate 2"
 }]
