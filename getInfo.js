@@ -18,6 +18,10 @@ router.get('/tester', function(req, res, next) {
 });
 
 router.use(bodyParser.urlencoded({ extended: true }));
+router.use(function (req, res, next) {
+	res.setHeader('Access-Control-Allow-Origin', '*');
+	next();
+});
 
 router.get('/', function(req,res, next) {
 	fs.readFile(dataPath, (err, data) => {
