@@ -4,7 +4,8 @@
   "description": "Get the information on our nobel nominies",
   "main": "getInfo.js",
   "scripts": {
-    "test": "mocha tester.js"
+    "test": "mocha tester.js",
+    "start": "node getInfo.js"
   },
   "repository": {
     "type": "git",
