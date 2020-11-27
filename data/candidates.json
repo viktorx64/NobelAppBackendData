@@ -44,7 +44,9 @@
 		".",
 		"..",
 		"..."
-	]
+	],
+	"shortinfo":"",
+	"liv":""
 },
 {
 	"firstname" : "Alan",
@@ -54,7 +56,9 @@
 		".",
 		"..",
 		"..."
-	]
+	],
+	"shortinfo":"",
+	"liv":""
 },
 {
 	"firstname" : "Kathleen",
@@ -64,7 +68,9 @@
 		".",
 		"..",
 		"..."
-	]
+	],
+	"shortinfo":"",
+	"liv":""
 },
 {
 	"firstname" : "Richard",
@@ -74,7 +80,9 @@
 		".",
 		"..",
 		"..."
-	]
+	],
+	"shortinfo":"",
+	"liv":""
 },
 {
 	"firstname" : "Ada",
@@ -84,6 +92,8 @@
 		".",
 		"..",
 		"..."
-	]
+	],
+	"shortinfo":"",
+	"liv":""
 }
 ]

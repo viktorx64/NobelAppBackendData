@@ -45,6 +45,20 @@ router.get('/allNobel', function(req,res, next) {
 	});
 });
 
+router.get('/thisNobel/:id', function(req, res, next) {
+	var id, candidate;
+	fs.readFile(dataPath, (err, data) => {
+		if (err) {
+			throw err;
+		}
+		id = req.params.id;
+		candidate = JSON.parse(data);
+
+		res.send(candidate[id]);
+		next();
+	});
+});
+
 //get All Votes
 router.get('/votes', function(req,res, next) {
 	fs.readFile(dataPathVotes, (err, data) => {
@@ -79,11 +93,6 @@ router.put('/vote', function(req,res, next) {
 		next();
 	});
 });
-
-router.get('/thisNobel', function(req, res, next) {
-	res.send("get this nobel deltagare");
-	next();
-})
 
 /*
 	may remove this when using it as an api
