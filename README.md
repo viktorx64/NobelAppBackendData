@@ -7,9 +7,9 @@ xhr request
 
 Recieve | Request | Route | Response
 --- | --- | --- | ---
-All | GET | /allNobel | JSONArray nominies
-Specific | GET | /thisNobel/:id | JSONObject Nominee
-Votes | GET | /votes | JSONArray vote
+All | GET | /nobel | JSONArray nominies
+Specific | GET | /nobel/:id | JSONObject Nominee
+Votes | GET | /vote | JSONArray vote
 Vote | PUT | /vote | JSONArray vote update
 
 

@@ -35,7 +35,7 @@ router.get('/', function(req,res, next) {
 	});
 });
 
-router.get('/allNobel', function(req,res, next) {
+router.get('/nobel', function(req,res, next) {
 	fs.readFile(dataPath, (err, data) => {
 		if (err) {
 			throw err;
@@ -46,7 +46,7 @@ router.get('/allNobel', function(req,res, next) {
 	});
 });
 
-router.get('/thisNobel/:id', function(req, res, next) {
+router.get('/nobel/:id', function(req, res, next) {
 	var id, candidate;
 	fs.readFile(dataPath, (err, data) => {
 		if (err) {
@@ -61,7 +61,7 @@ router.get('/thisNobel/:id', function(req, res, next) {
 });
 
 //get All Votes
-router.get('/votes', function(req,res, next) {
+router.get('/vote', function(req,res, next) {
 	fs.readFile(dataPathVotes, (err, data) => {
 		if (err) {
 			throw err;
