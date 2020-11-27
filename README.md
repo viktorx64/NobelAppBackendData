@@ -13,17 +13,20 @@ Vote | PUT | /vote | JSONArray vote update
 
 
 <h3> JSON Layout </h3>
+
+```json
 {
-	"firstname" : "Steve",  //
-	"lastname" : "Jobs",    //
-	"id" : 3,               //id of the candidate from 0-7
-	"accomplished" : [      //accomplishments an array you put what they have accomplished under their lives
-		".",
-		"..",
-		"..."
+	"firstname" : "Steve",
+	"lastname" : "Jobs",
+	"id" : 3,
+	"accomplished" : [
+		"what they accomplished in thier life",
+		"some noteworthy stuff",
+		"there can be many of these if you want it to"
 	],
-	"shortinfo":"",         //short info about candidate
-	"liv":""                //candidates life story - (the interesting parts)
+	"shortinfo":"short info about candidate for front page and intro text",
+	"liv":"the story of their life - but only the interesting bits"
 }
+```
 
 send a message if you want more functions
