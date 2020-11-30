@@ -73,7 +73,7 @@ router.get('/vote', function(req,res, next) {
 });
 
 //save Votes
-router.put('/vote', function(req,res, next) {
+router.post('/vote', function(req,res, next) {
 	res.setHeader('Access-Control-Allow-Origin', '*');
 	var nobleList;
 	var id = parseInt(req.body.id);
