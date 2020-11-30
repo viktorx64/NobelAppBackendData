@@ -64,7 +64,7 @@ router.get('/nobel/:id', function(req, res, next) {
 });
 
 //get All Votes
-router.get('/votes', function(req,res, next) {
+router.get('/vote', function(req,res, next) {
 	fs.readFile(dataPathVotes, (err, data) => {
 		if (err) {
 			throw err;
