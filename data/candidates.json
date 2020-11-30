@@ -53,24 +53,24 @@
 	"lastname" : "Turing",
 	"id" : 4,
 	"accomplished" : [
-		".",
-		"..",
-		"..."
+		"Alan turing skapade Turingmaskinen.Turingmaskinen är en teoretisk beräkningsmodell med syftet att räkna ut gränser för algoritmiska lösningar.",
+		"Den första av dessa maskiner konstruerades av Turing själv år 1936 med syftet att avkryptera nazisternas radiomeddelanden som krypteras med en så kallad enigmamaskin.",
+		"En Turingmaskin är kapabel utföra i princip alla beräkningar en modern dator kan och idag är den en av de mest fundamentala modellerna för datortekniken. "
 	],
-	"shortinfo":"",
-	"liv":""
+	"shortinfo":"Skaparen av Turingmaskinen som bidrog stort till att de allierade vann WWII",
+	"liv":"Alan Mathison Turing föddes 23:e Juni 1912 i London till en familj med hyfsat bra ekonomisk ställning. Det var uppenbart för många runt honom under hans barndom att han var begåvad. 1931 började han studera på Kings College i Cambridge där han klarade sina studier med utmärkta betyg. 1936 publicerade han matematiska beviset “On Computable Numbers, with an Application to the Entscheidungsproblem” som var banbrytande inom ämnet. Därefter studerade Turing i Princeton University. Turing arbetade under andra världskriget med kryptoanalys där hans insatser var en viktig del att de allierade vann kriget.\nAlan Turing var homosexuell vilket var någonting som inte var lika accepterat under hans tid. Han straffades för sin sexualitet genom kemisk kastrering trots hans viktiga insatser för sitt land. Turing hittades död 8:e Juni 1954 i hans hem i Winslow. Orsaken var förgiftning men ingen är helt säker om hur han blev förgiftad. De flesta är överens om att han begick självmord."
 },
 {
 	"firstname" : "Kathleen",
 	"lastname" : "Booth",
 	"id" : 5,
 	"accomplished" : [
-		".",
-		"..",
-		"..."
+		"Skapade det första assembly programmeringsspråket. Assemblerspråk är programmeringsspråk mellan högnivåspråk och maskinkod.",
+		"Hon var en av grundarna för school of computer science and information systems 1957 vid birkbeck college"
+		
 	],
-	"shortinfo":"",
-	"liv":""
+	"shortinfo":"skapade det första assembly språket",
+	"liv":"föddes 1922 i Stourbridge, Worcestershire, England. hon fick en bachelor of science 1947 och fick PhD i applied mathematics 1950.1947 skapade hon det första assembly språket till ARC (automatic relay calculator). gifte sig med Andrew Donald Booth 1950. Andrew Byggde datorerna och Kathleen programmerade dom."
 },
 {
 	"firstname" : "Richard",
