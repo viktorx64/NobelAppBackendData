@@ -76,10 +76,10 @@ router.get('/votes', function(req,res, next) {
 });
 
 //save Votes
-router.get('/vote', function(req,res, next) {
+router.get('/vote/:id', function(req,res, next) {
 	res.setHeader('Access-Control-Allow-Origin', '*');
 	var nobleList;
-	var id = parseInt(req.body.id);
+	var id = parseInt(req.params.id);
 	fs.readFile(dataPathVotes, (err, data) => {
 		if (err) {
 			throw err;
