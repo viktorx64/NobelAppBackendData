@@ -7,6 +7,7 @@ console.log("Program starting");
 const express = require('express');
 const router = express()
 const bodyParser = require('body-parser');
+var cors = require('cors');
 var fs = require('fs');
 
 const dataPath = "./data/candidates.json";
@@ -19,10 +20,10 @@ router.get('/tester', function(req, res, next) {
 
 router.use(bodyParser.urlencoded({ extended: true }));
 router.use(function (req, res, next) {
-	res.setHeader('Access-Control-Allow-Origin', '*');
-	res.setHeader('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
-	res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
-	res.setHeader('Access-Control-Allow-Credentials', 'true');
+	res.header('Access-Control-Allow-Origin', '*');
+	res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
+	res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+	res.header('Access-Control-Allow-Credentials', 'true');
 	next();
 });
 
@@ -63,7 +64,7 @@ router.get('/nobel/:id', function(req, res, next) {
 });
 
 //get All Votes
-router.get('/vote', function(req,res, next) {
+router.get('/votes', function(req,res, next) {
 	fs.readFile(dataPathVotes, (err, data) => {
 		if (err) {
 			throw err;
@@ -75,7 +76,7 @@ router.get('/vote', function(req,res, next) {
 });
 
 //save Votes
-router.post('/vote', function(req,res, next) {
+router.get('/vote', function(req,res, next) {
 	res.setHeader('Access-Control-Allow-Origin', '*');
 	var nobleList;
 	var id = parseInt(req.body.id);
