@@ -33,7 +33,7 @@ router.get('/', function(req,res, next) {
 			throw err;
 		}
 		//var nobleList = JSON.parse(data);
-		res.send("find data on '/allNobel'<br> it returns JSON");
+		res.send("find data on '/nobel'<br> it returns JSON\n and '/nobel/:id'");
 		next();
 	});
 });
