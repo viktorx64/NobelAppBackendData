@@ -63,45 +63,6 @@ router.get('/nobel/:id', function(req, res, next) {
 	});
 });
 
-//get All Votes
-router.get('/vote', function(req,res, next) {
-	fs.readFile(dataPathVotes, (err, data) => {
-		if (err) {
-			throw err;
-		}
-		//var nobleList = JSON.parse(data);
-		res.send(JSON.parse(data));
-		next();
-	});
-});
-
-//save Votes
-router.get('/vote/:id', function(req,res, next) {
-	res.setHeader('Access-Control-Allow-Origin', '*');
-	var nobleList;
-	var id = parseInt(req.params.id);
-	fs.readFile(dataPathVotes, (err, data) => {
-		if (err) {
-			throw err;
-		}
-		nobleList = JSON.parse(data);
-		nobleList[id].votes++;
-		
-		fs.writeFile(dataPathVotes, JSON.stringify(nobleList), (err) => {
-			if (err) {
-				throw err;
-			}
-			console.log("somebody voted!");
-		});
-		
-		res.send(nobleList);
-		next();
-	});
-});
-
-/*
-	may remove this when using it as an api
-*/ 
 router.listen(process.env.PORT || 3000, function(){
 	console.log("Server Listening on port 3000");
 });
