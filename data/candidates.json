@@ -67,7 +67,7 @@
 	"lastname" : "Booth",
 	"id" : 5,
 	"accomplished" : [
-		"Skapade det första assembly programmeringsspråket. Assemblerspråk är programmeringsspråk mellan högnivåspråk och maskinkod.",
+		"Skapade det första assembly programmeringsspråket. Assemblerspråk är programmeringsspråk mellan högnivåspråk och maskinkod.<br><br>",
 		"Hon var en av grundarna för school of computer science and information systems 1957 vid birkbeck college"
 		
 	],
@@ -93,11 +93,11 @@
 	"lastname" : "Lovelace",
 	"id" : 7,
 	"accomplished" : [
-		"Ada Lovelace var också en casinospelare och gillar att gambla Enligt hennes mamma Lady Byron ska hon bettad på fel häst och förlorat 3200£ på Epsom Derby. Vilket motsvarar ca 3 miljoner svenska kronor idag. Hon blev uppmuntrad att börja spela av andra män. Hon och Babbage hade en bok som det gjort ett program för försöka lista ut vilka hästar som kommer vinna racen.",
+		"Ada Lovelace var också en casinospelare och gillar att gambla Enligt hennes mamma Lady Byron ska hon bettad på fel häst och förlorat 3200£ på Epsom Derby. Vilket motsvarar ca 3 miljoner svenska kronor idag. Hon blev uppmuntrad att börja spela av andra män. Hon och Babbage hade en bok som det gjort ett program för försöka lista ut vilka hästar som kommer vinna racen.<br><br>",
 		"Babbage trodde datorer var bara möjliga att hantera matematiska beräkningar medans Lovelace funderande vidare om musik, bilder och ljud kunde göras om till digital form. Hon skrev att den analytiska maskinen.",
 		" "
 	],
 	"shortinfo":"",
-	"liv":"Ada Lovelace född i början av 1800-talet (10 december 1815) var en brittisk matematiker från London i England som var dotter till den kände poeten Lord Byron som senare lämnade henne när hon bara var några månader gammal. Från början så var det inte direkt tänkt att hon skulle bli en matematiker men hon blev mycket mer än så till och med. Ada är mest känd om sitt arbete med Charles Babbage. Efter att Babbage tagit fram mekaniska räknemaskiner och inte fått de fungera så blev Lovelace intresserad av dessa och skapade ett matematiskt program till att lösa algoritmer men de testade de aldrig hennes algoritmer i praktiken men anses idag som den första programmeraren. Senare 1852 får Ada Lovelace uterine cancer och dör senare 27 November 1852. Blev sedan begravd bredvid sin pappa Lord Byron även fast hon inte träffat han på grund av deras framgångsrika karriär."
+	"liv":"Ada Lovelace född i början av 1800-talet (10 december 1815) var en brittisk matematiker från London i England som var dotter till den kände poeten Lord Byron som senare lämnade henne när hon bara var några månader gammal. Från början så var det inte direkt tänkt att hon skulle bli en matematiker men hon blev mycket mer än så till och med.<br><br> Ada är mest känd om sitt arbete med Charles Babbage. Efter att Babbage tagit fram mekaniska räknemaskiner och inte fått de fungera så blev Lovelace intresserad av dessa och skapade ett matematiskt program till att lösa algoritmer men de testade de aldrig hennes algoritmer i praktiken men anses idag som den första programmeraren.<br><br> Senare 1852 får Ada Lovelace uterine cancer och dör senare 27 November 1852. Blev sedan begravd bredvid sin pappa Lord Byron även fast hon inte träffat han på grund av deras framgångsrika karriär."
 }
 ]
