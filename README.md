@@ -9,9 +9,8 @@ Recieve | Request | Route | Response
 --- | --- | --- | ---
 All | GET | /nobel | JSONArray nominies
 Specific | GET | /nobel/:id | JSONObject Nominee
-Votes | GET | /vote | JSONArray vote
-Vote | GET | /vote/:id | JSONArray vote update
 
+<br>
 
 <h3> JSON Layout </h3>
 
