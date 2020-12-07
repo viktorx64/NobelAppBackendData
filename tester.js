@@ -24,7 +24,7 @@ chai.use(chaiHttp);
 describe("Server", function() {
 	it("running", function(done) {
 		chai.request(baseUrl)
-		.get("/tester")
+		.get("/")
 		.end(function(err, res) {
 			res.should.have.status(200);
 			done();
@@ -34,7 +34,7 @@ describe("Server", function() {
 describe("Load Candidates", function() {
 	it("Get all Candidates", function(done) {
 		chai.request(baseUrl)
-		.get("/allNobel")
+		.get("/nobel")
 		.end(function(err, res) {
 			res.should.have.status(200);
 			done();
